@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link rel="stylesheet" href="css.css">
+
+</head>
+
+<body>
+   
+    <div class=" top2">
+        <div class="cercl">
+
+        </div>
+    </div>
+
+<div class="hamu">
+    <div class="hamu1">
+        <p class="nname"> holy quran</p>
+        <div class="bug1"></div>
+        <div class="logo"></div>
+    </div>
+    
+</div>
+<button class="buttn2" ><a href="about.html">دەستپێبکە</a></button>
+<button class="buttn"><a href="https://www.t.me/halwest0_0">تێلەگرامەکەم</a></button>
+<div class="info">
+    <p>  <br>ئەم نەرماوالەیە دورستکراوە و پەرەی پێدراوە لەلایەن 
+        <br>هەلوێست جەمال <br>
+        دیزاینکردن<br>
+        هەلوێست جەمال <br>
+        بە بەژداری و یارمەتی <br>
+        محەمەد <br>
+        <br>
+    </p>
+</div>
+<div class="donot">
+    <div class="nusin">
+        <h1>
+           
+         ناتوانی ئەم نەرمەوالە لە شاشەی گەورە بکەیتەوە!
+         <br>    تکایە لە مۆبایل دووبارە هەولبدەوە!
+        </h1>
+        </div>
+</div>
+<script>
+
+let top2 =  document.querySelector(".top2")
+top2.addEventListener("click",()=>{
+  top2.classList.add("active")
+  window.open("about.html","_self")
+  
+  
+});
+
+window.addEventListener("resize",()=>{
+
+if (window.innerWidth > 500) {
+  document.querySelector(".donot").style.display = "block"
+}else{
+  document.querySelector(".donot").style.display = "none"
+}
+})
+if (window.innerWidth > 500) {
+document.querySelector(".donot").style.display = "block"
+}else{
+document.querySelector(".donot").style.display = "none"
+}
+</script>
+</body>
+
+</html>
