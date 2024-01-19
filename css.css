@@ -67,7 +67,7 @@ audio{
     align-items: center;
     font-size: 20px;
 }.top:active .cercl{
-    margin-left:355px ;
+    margin-left:305px ;
 }.top2 .cercl{
     animation: halo 0.5s 1 ;
     animation-fill-mode: forwards;
@@ -92,16 +92,16 @@ audio{
 }
 @keyframes halo {
     to{
-        margin-left:355px ;
+        margin-left:305px ;
     }
     
 }
 @keyframes halo2 {
     from{
-        margin-left:355px ;
+        margin-left:305px ;
     }
     to{
-        margin-right:355px ;
+        margin-right:305px ;
     }
     
 }
